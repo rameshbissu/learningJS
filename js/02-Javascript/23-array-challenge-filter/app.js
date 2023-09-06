@@ -1,6 +1,6 @@
 // Array-Challenge : filter
 
-const updateStudents = students.filter(function (student) {
+const highScores = students.filter(function (student) {
   // Way 1.
   // if(student.score >= 80){
   //   return student;
@@ -13,4 +13,4 @@ const updateStudents = students.filter(function (student) {
   return student.score >= 80;
 });
 
-console.log(updateStudents);
+console.log(highScores);
