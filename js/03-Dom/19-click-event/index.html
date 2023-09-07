@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>click event</title>
+    <style>
+      .red{
+        background: red;
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+      .blue{
+        background: blue;
+        color: white;
+        font-size: 10px;
+        text-transform: capitalize;
+      }
+      .btn{
+        background: #f15025;
+        color: white;
+        font-size: 1.2rem;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>events in javascript</h2>
+    <button class="btn">click me</button>
+    <!-- javascript -->
+    <p onclick="this.classList.add('red')">the old style</p>
+    <script src="./app.js"></script>
+  </body>
+</html>
