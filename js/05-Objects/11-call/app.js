@@ -1,5 +1,4 @@
 // call - runs instantly, arguments -list of items
-// apply - runs instantly, arguments -array of items
 
 const john = {
   name: "john",
@@ -21,12 +20,7 @@ function greet() {
   console.log(this);
   console.log(`hello, i'm ${this.name} and i'am ${this.age} years old`);
 }
-// this will fail
-// susan.greet();
-// greet();
 
-// const secondGreet = john.greet;
-// secondGreet();
 
 greet.call(john);
 greet.call(susan);
